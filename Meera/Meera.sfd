@@ -47429,6 +47429,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 4 subtable" p3 r4
+Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 4 subtable" p3xx r3
 EndChar
 
 StartChar: p3r3u1
@@ -75938,6 +75939,7 @@ SplineSet
  855 195 855 195 855 265 c 0,55,56
 EndSplineSet
 Validated: 1
+Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 4 subtable" k2xx r3
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 4 subtable" k2 r4
 EndChar
 
@@ -76991,6 +76993,7 @@ SplineSet
  1564 115 l 1,29,-1
 EndSplineSet
 Validated: 1
+Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 4 subtable" th2xx r3
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 4 subtable" th2 r4
 EndChar
 
