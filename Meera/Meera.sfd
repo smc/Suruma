@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1380466827
+ModificationTime: 1382544143
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -73,7 +73,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 68 34 12
+WinInfo: 748 34 12
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "dotreph"  "'abvm' Above Base Mark in Malay+AQEA-lam lookup 0-1" 
@@ -52810,7 +52810,6 @@ SplineSet
  801 102 801 102 829 111 c 1,52,53
 EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 5 subtable" y1 y2
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" y1 xx y1
 EndChar
 
 StartChar: y1y1u1
@@ -52885,7 +52884,6 @@ SplineSet
  1174 -682 1174 -682 1242 -682 c 256,87,76
  1310 -682 1310 -682 1356.5 -635 c 128,-1,77
 EndSplineSet
-Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 5 subtable" y1 y2 u1
 EndChar
 
@@ -52972,7 +52970,6 @@ SplineSet
  1129 -739 1129 -739 1209 -739 c 256,103,88
  1289 -739 1289 -739 1346 -682.5 c 128,-1,89
 EndSplineSet
-Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 5 subtable" y1 y2 u2
 EndChar
 
@@ -56206,9 +56203,8 @@ SplineSet
  767 -422 767 -422 767 -360 c 0,60,61
 EndSplineSet
 Validated: 1
+Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 4 subtable" l3xx l3
 Ligature2: "'blws' Below Base Substitutions in Malay+AQEA-lam lookup 3 subtable" l3 l4
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" l3 xx l3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 4 subtable" l4 l3
 EndChar
 
 StartChar: l3l3u1
@@ -56984,8 +56980,6 @@ SplineSet
  935 -237 l 1,33,-1
  1347 -237 l 1,30,-1
 EndSplineSet
-LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" v1 xx v1
 Ligature2: "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 5 subtable" v1 v2
 EndChar
 
