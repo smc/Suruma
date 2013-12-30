@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144321
-ModificationTime: 1387052038
+ModificationTime: 1388433824
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -55,14 +55,14 @@ OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80800001.00002000.00000000.00000000
 Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 0"  {"'onum' Oldstyle lookup 0 subtable" ("old" ) } ['onum' ('DFLT' <'dflt' > 'latn' <'dflt' > 'mlm2' <'dflt' > ) ]
 Lookup: 4 0 0 "'akhn' Akhand in Malay+AQEA-lam2 lookup 1"  {"'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable"  } ['akhn' ('mlm2' <'dflt' > ) ]
+Lookup: 4 0 0 "'half' Half Forms in Malay+AQEA-lam lookup 2"  {"'half' Half Forms in Malay+AQEA-lam lookup 2 subtable"  } ['half' ('mlm2' <'dflt' > ) ]
 Lookup: 4 0 0 "'pref' Pre Base Forms in Malay+AQEA-lam2 lookup 2"  {"'pref' Pre Base Forms in Malay+AQEA-lam2 lookup 2 subtable"  } ['pref' ('mlm2' <'dflt' > ) ]
-Lookup: 4 0 0 "'half' Half Forms in Malay+AQEA-lam lookup 2"  {"'half' Half Forms in Malay+AQEA-lam lookup 2 subtable"  } ['half' ('mlym' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms in Malay+AQEA-lam2 lookup 3"  {"'blwf' Below Base Forms in Malay+AQEA-lam2 lookup 3 subtable"  } ['blwf' ('mlm2' <'dflt' > ) ]
+Lookup: 4 0 0 "'pstf' Post Base Forms in Malay+AQEA-lam2 lookup 8"  {"'pstf' Post Base Forms in Malay+AQEA-lam2 lookup 8 subtable"  } ['pstf' ('mlm2' <'dflt' > ) ]
 Lookup: 4 0 0 "'blws' Below Base Substitutions in Malay+AQEA-lam2 lookup 4"  {"'blws' Below Base Substitutions in Malay+AQEA-lam2 lookup 4 subtable"  } ['blws' ('mlm2' <'dflt' > ) ]
 Lookup: 4 0 0 "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5"  {"'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable"  } ['pres' ('mlm2' <'dflt' > ) ]
 Lookup: 4 256 0 "'psts' Post Base Substitutions in Malay+AQEA-lam2 lookup 6"  {"'psts' Post Base Substitutions in Malay+AQEA-lam2 lookup 6 subtable"  } ['psts' ('mlm2' <'dflt' > ) ]
-Lookup: 4 0 0 "'pstf' Post Base Forms in Malay+AQEA-lam2 lookup 8"  {"'pstf' Post Base Forms in Malay+AQEA-lam2 lookup 8 subtable"  } ['pstf' ('mlm2' <'dflt' > ) ]
-Lookup: 260 0 0 "'abvm' Above Base Mark in Malay+AQEA-lam/Malay+AQEA-lam2 lookup 0"  {"'abvm' Above Base Mark in Malay+AQEA-lam/Malay+AQEA-lam2 lookup 0 subtable"  } ['abvm' ('mlm2' <'dflt' > 'mlym' <'dflt' > ) ]
+Lookup: 260 0 0 "'abvm' Above Base Mark in Malay+AQEA-lam2 lookup 0"  {"'abvm' Above Base Mark in Malay+AQEA-lam/Malay+AQEA-lam2 lookup 0 subtable"  } ['abvm' ('mlm2' <'dflt' > ) ]
 MarkAttachClasses: 2
 "nomark" 0 
 DEI: 91125
