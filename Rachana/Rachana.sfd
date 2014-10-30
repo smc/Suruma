@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144321
-ModificationTime: 1414306866
+ModificationTime: 1414698689
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -54,18 +54,12 @@ OS2Vendor: 'PfEd'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80800001.00002000.00000000.00000000
 Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 0"  {"'onum' Oldstyle lookup 0 subtable" ("old" ) } ['onum' ('DFLT' <'dflt' > 'latn' <'dflt' > 'mlm2' <'dflt' > 'mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'akhn' Akhand in Malay+AQEA-lam lookup 1"  {"'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable"  } ['akhn' ('mlym' <'dflt' > ) ]
 Lookup: 4 0 0 "'akhn' Akhand in Malay+AQEA-lam2 lookup 1"  {"'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable"  } ['akhn' ('mlm2' <'dflt' > ) ]
 Lookup: 4 0 0 "'pref' Pre Base Forms in Malay+AQEA-lam2 lookup 2"  {"'pref' Pre Base Forms in Malay+AQEA-lam2 lookup 2 subtable"  } ['pref' ('mlm2' <'dflt' > ) ]
-Lookup: 4 0 0 "'half' Half Forms in Malay+AQEA-lam lookup 2"  {"'half' Half Forms in Malay+AQEA-lam lookup 2 subtable"  } ['half' ('mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'blwf' Below Base Forms in Malay+AQEA-lam lookup 3"  {"'blwf' Below Base Forms in Malay+AQEA-lam lookup 3 subtable"  } ['blwf' ('mlym' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms in Malay+AQEA-lam2 lookup 3"  {"'blwf' Below Base Forms in Malay+AQEA-lam2 lookup 3 subtable"  } ['blwf' ('mlm2' <'dflt' > ) ]
-Lookup: 4 0 0 "'blws' Below Base Substitutions in Malay+AQEA-lam/Malay+AQEA-lam2 lookup 4"  {"'blws' Below Base Substitutions in Malay+AQEA-lam/Malay+AQEA-lam2 lookup 4 subtable"  } ['blws' ('mlm2' <'dflt' > 'mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5"  {"'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable"  } ['pres' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'blws' Below Base Substitutions in Malay+AQEA-lam2 lookup 4"  {"'blws' Below Base Substitutions in Malay+AQEA-lam/Malay+AQEA-lam2 lookup 4 subtable"  } ['blws' ('mlm2' <'dflt' > ) ]
 Lookup: 4 0 0 "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5"  {"'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable"  } ['pres' ('mlm2' <'dflt' > ) ]
-Lookup: 4 256 0 "'psts' Post Base Substitutions in Malay+AQEA-lam/Malay+AQEA-lam2 lookup 6"  {"'psts' Post Base Substitutions in Malay+AQEA-lam/Malay+AQEA-lam2 lookup 6 subtable"  } ['psts' ('mlm2' <'dflt' > 'mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'haln' Halant Forms in Malay+AQEA-lam lookup 7"  {"'haln' Halant Forms in Malay+AQEA-lam lookup 7 subtable"  } ['haln' ('mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'pstf' Post Base Forms in Malay+AQEA-lam lookup 8"  {"'pstf' Post Base Forms in Malay+AQEA-lam lookup 8 subtable"  } ['pstf' ('mlym' <'dflt' > ) ]
+Lookup: 4 256 0 "'psts' Post Base Substitutions in Malay+AQEA-lam2 lookup 6"  {"'psts' Post Base Substitutions in Malay+AQEA-lam/Malay+AQEA-lam2 lookup 6 subtable"  } ['psts' ('mlm2' <'dflt' > ) ]
 Lookup: 4 0 0 "'pstf' Post Base Forms in Malay+AQEA-lam2 lookup 8"  {"'pstf' Post Base Forms in Malay+AQEA-lam2 lookup 8 subtable"  } ['pstf' ('mlm2' <'dflt' > ) ]
 Lookup: 260 0 0 "'abvm' Above Base Mark in Malay+AQEA-lam/Malay+AQEA-lam2 lookup 0"  {"'abvm' Above Base Mark in Malay+AQEA-lam/Malay+AQEA-lam2 lookup 0 subtable"  } ['abvm' ('mlm2' <'dflt' > 'mlym' <'dflt' > ) ]
 MarkAttachClasses: 2
@@ -768,7 +762,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 684 36 12
+WinInfo: 0 36 12
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "dotreph"  "'abvm' Above Base Mark in Malay+AQEA-lam/Malay+AQEA-lam2 lookup 0 subtable" 
@@ -8706,7 +8700,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'pref' Pre Base Forms in Malay+AQEA-lam2 lookup 2 subtable" xx r3
-Ligature2: "'pstf' Post Base Forms in Malay+AQEA-lam lookup 8 subtable" r3 xx
 EndChar
 
 StartChar: y2
@@ -8751,7 +8744,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'pstf' Post Base Forms in Malay+AQEA-lam2 lookup 8 subtable" xx y1
-Ligature2: "'pstf' Post Base Forms in Malay+AQEA-lam lookup 8 subtable" y1 xx
 EndChar
 
 StartChar: y2u1
@@ -8905,7 +8897,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'pstf' Post Base Forms in Malay+AQEA-lam2 lookup 8 subtable" xx v1
-Ligature2: "'pstf' Post Base Forms in Malay+AQEA-lam lookup 8 subtable" v1 xx
 EndChar
 
 StartChar: k1cil
@@ -8916,9 +8907,6 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 1051 3455 N 1 0 0 1 0 0 2
-Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 7 subtable" k1 xx ZWJ
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" k1 xx ZWJ
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k1 xx ZWJ
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k1 xx ZWJ
 EndChar
 
@@ -8930,9 +8918,6 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 1046 3450 N 1 0 0 1 0 0 2
-Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 7 subtable" nh xx ZWJ
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" nh xx ZWJ
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" nh xx ZWJ
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" nh xx ZWJ
 EndChar
 
@@ -8945,9 +8930,6 @@ LayerCount: 2
 Fore
 Refer: 1047 3451 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 7 subtable" n1 xx ZWJ
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" n1 xx ZWJ
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" n1 xx ZWJ
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" n1 xx ZWJ
 EndChar
 
@@ -8960,9 +8942,6 @@ LayerCount: 2
 Fore
 Refer: 1049 3453 N 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 7 subtable" l3 xx ZWJ
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" l3 xx ZWJ
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" l3 xx ZWJ
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" l3 xx ZWJ
 EndChar
 
@@ -8974,9 +8953,6 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 1050 3454 N 1 0 0 1 0 0 2
-Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 7 subtable" lh xx ZWJ
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" lh xx ZWJ
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" lh xx ZWJ
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" lh xx ZWJ
 EndChar
 
@@ -8988,9 +8964,6 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 1048 3452 N 1 0 0 1 0 0 2
-Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 7 subtable" r3 xx ZWJ
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" r3 xx ZWJ
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" r3 xx ZWJ
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" r3 xx ZWJ
 EndChar
 
@@ -9435,7 +9408,6 @@ SplineSet
  606 -192 606 -192 606 -132 c 0,140,141
 EndSplineSet
 Validated: 5
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k1 ml_l
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k1 ml_l
 EndChar
 
@@ -9528,7 +9500,6 @@ SplineSet
  570 202 570 202 570 280 c 2,116,-1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k1 xx k1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k1 xx k1
 EndChar
 
@@ -9941,9 +9912,7 @@ SplineSet
  870 84 870 84 870 280 c 2,129,-1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" k1k1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 k1k1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" k1k1 xx r3
 EndChar
 
 StartChar: k1k1r3u1
@@ -10230,7 +10199,6 @@ SplineSet
 EndSplineSet
 Refer: 115 3349 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k1 xx t1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k1 xx t1
 EndChar
 
@@ -10398,9 +10366,7 @@ SplineSet
 EndSplineSet
 Refer: 115 3349 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" k1t1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 k1t1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" k1t1 xx r3
 EndChar
 
 StartChar: k1t1r3u1
@@ -10587,7 +10553,6 @@ SplineSet
 EndSplineSet
 Refer: 115 3349 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k1 xx nh
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k1 xx nh
 EndChar
 
@@ -10934,7 +10899,6 @@ SplineSet
  512 90 512 90 512 282 c 2,107,-1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k1 xx th1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k1 xx th1
 EndChar
 
@@ -11510,9 +11474,7 @@ SplineSet
  796 88 796 88 796 280 c 2,149,-1
 EndSplineSet
 Validated: 1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" k1th1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 k1th1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" k1th1 xx r3
 EndChar
 
 StartChar: k1th1r3u1
@@ -11806,7 +11768,6 @@ SplineSet
 EndSplineSet
 Refer: 115 3349 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k1 xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k1 xx n1
 EndChar
 
@@ -11956,7 +11917,6 @@ SplineSet
 EndSplineSet
 Refer: 115 3349 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k1 xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k1 xx m1
 EndChar
 
@@ -12158,8 +12118,6 @@ SplineSet
  870 84 870 84 870 280 c 2,72,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" k1xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" k1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 k1
 EndChar
 
@@ -12623,7 +12581,6 @@ SplineSet
  570 184 570 184 570 280 c 2,108,-1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k1 xx sh
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k1 xx sh
 EndChar
 
@@ -13022,7 +12979,6 @@ SplineSet
 EndSplineSet
 Refer: 234 -1 S 1 0 0 1 0 0 2
 LCarets2: 4 0 0 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k1 xx sh xx nh
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k1 xx sh xx nh
 EndChar
 
@@ -13220,7 +13176,6 @@ SplineSet
 EndSplineSet
 Refer: 234 -1 S 1 0 0 1 0 0 2
 LCarets2: 4 0 0 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k1 xx sh xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k1 xx sh xx m1
 EndChar
 
@@ -13473,7 +13428,6 @@ SplineSet
 EndSplineSet
 Refer: 115 3349 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k1 xx s1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k1 xx s1
 EndChar
 
@@ -13736,7 +13690,6 @@ SplineSet
 EndSplineSet
 Refer: 115 3349 S 1 0 0 1 0 0 2
 LCarets2: 4 0 0 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k1 xx rh xx rh
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k1 xx rh xx rh
 EndChar
 
@@ -14410,7 +14363,6 @@ SplineSet
 EndSplineSet
 Refer: 117 3351 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k3 xx k3
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k3 xx k3
 EndChar
 
@@ -14651,7 +14603,6 @@ SplineSet
  1742 406 l 1,55,-1
 EndSplineSet
 Validated: 33
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k3 xx k4
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k3 xx k4
 EndChar
 
@@ -14952,7 +14903,6 @@ SplineSet
  1456 322 1456 322 1456 250 c 0,0,1
 EndSplineSet
 Validated: 33
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k3 xx th3
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k3 xx th3
 EndChar
 
@@ -15252,7 +15202,6 @@ SplineSet
  2066 588 2066 588 2066 440 c 0,0,1
 EndSplineSet
 LCarets2: 4 0 0 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k3 xx th3 xx th4
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k3 xx th3 xx th4
 EndChar
 
@@ -15628,9 +15577,7 @@ SplineSet
  2352 760 2352 760 2352 416 c 0,0,1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" k3th3th4 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 k3th3th4
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" k3th3th4 xx r3
 EndChar
 
 StartChar: k3th3th4r3u1
@@ -15892,7 +15839,6 @@ SplineSet
  2004 654 2004 654 2004 450 c 0,0,1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k3 xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k3 xx n1
 EndChar
 
@@ -16081,7 +16027,6 @@ SplineSet
  1496 66 l 1,50,-1
 EndSplineSet
 Validated: 1
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k3 xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k3 xx m1
 EndChar
 
@@ -16286,8 +16231,6 @@ SplineSet
  1530 918 1530 918 1628 782 c 1,63,64
  1724 646 1724 646 1724 442 c 0,0,1
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" k3xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" k3 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 k3
 EndChar
 
@@ -17001,7 +16944,6 @@ SplineSet
 EndSplineSet
 Refer: 118 3352 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" k4 xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k4 xx n1
 EndChar
 
@@ -17186,8 +17128,6 @@ SplineSet
  1480 402 l 1,98,-1
  2088 402 l 1,84,85
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" k4xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" k4 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 k4
 EndChar
 
@@ -17634,7 +17574,6 @@ SplineSet
  578 184 578 184 578 280 c 2,89,-1
 EndSplineSet
 Validated: 1
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" ng xx k1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" ng xx k1
 EndChar
 
@@ -17978,7 +17917,6 @@ SplineSet
  530 198 530 198 530 266 c 0,121,122
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" ng xx ng
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" ng xx ng
 EndChar
 
@@ -18384,7 +18322,6 @@ SplineSet
  1318 -330 l 1,41,-1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" ch1 xx ch1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" ch1 xx ch1
 EndChar
 
@@ -18581,7 +18518,6 @@ SplineSet
 EndSplineSet
 Refer: 120 3354 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" ch1 xx ch2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" ch1 xx ch2
 EndChar
 
@@ -18896,9 +18832,7 @@ SplineSet
 EndSplineSet
 Refer: 120 3354 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" ch1ch2 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 ch1ch2
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" ch1ch2 xx r3
 EndChar
 
 StartChar: ch1ch2r3u1
@@ -19431,8 +19365,6 @@ SplineSet
  1938 330 1938 330 1938 386 c 0,107,108
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" ch2xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" ch2 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 ch2
 EndChar
 
@@ -20240,7 +20172,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" ch3 xx ch3
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" ch3 xx ch3
 EndChar
 
@@ -20806,7 +20737,6 @@ SplineSet
  406 504 406 504 406 608 c 128,-1,195
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" ch3 xx nj
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" ch3 xx nj
 EndChar
 
@@ -21193,8 +21123,6 @@ SplineSet
  730 492 730 492 730 596 c 128,-1,141
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" ch3xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" ch3 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 ch3
 EndChar
 
@@ -21908,8 +21836,6 @@ SplineSet
  1150 278 1150 278 1150 374 c 0,107,108
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" ch4xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" ch4 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 ch4
 EndChar
 
@@ -22383,7 +22309,6 @@ SplineSet
  534 200 534 200 534 270 c 0,91,92
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" nj xx ch1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" nj xx ch1
 EndChar
 
@@ -22784,7 +22709,6 @@ SplineSet
  510 212 510 212 510 264 c 0,138,139
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" nj xx ch2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" nj xx ch2
 EndChar
 
@@ -23275,7 +23199,6 @@ SplineSet
  550 200 550 200 550 262 c 0,156,157
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" nj xx ch3
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" nj xx ch3
 EndChar
 
@@ -23656,7 +23579,6 @@ SplineSet
  548 190 548 190 548 260 c 0,138,139
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" nj xx nj
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" nj xx nj
 EndChar
 
@@ -24209,7 +24131,6 @@ SplineSet
  968 -114 968 -114 968 -180 c 0,0,1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" t1 xx t1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" t1 xx t1
 EndChar
 
@@ -24396,8 +24317,6 @@ SplineSet
  1274 358 1274 358 1274 252 c 0,0,1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" t1xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" t1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 t1
 EndChar
 
@@ -24917,7 +24836,6 @@ SplineSet
 EndSplineSet
 Refer: 127 3361 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" t3 xx t3
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" t3 xx t3
 EndChar
 
@@ -25139,7 +25057,6 @@ SplineSet
 EndSplineSet
 Refer: 127 3361 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" t3 xx t4
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" t3 xx t4
 EndChar
 
@@ -25356,7 +25273,6 @@ SplineSet
 EndSplineSet
 Refer: 127 3361 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" t3 xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" t3 xx m1
 EndChar
 
@@ -25620,8 +25536,6 @@ SplineSet
  2306 570 2306 570 2306 436 c 0,0,1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" t3xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" t3 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 t3
 EndChar
 
@@ -26132,8 +26046,6 @@ SplineSet
  2282 564 2282 564 2282 632 c 0,104,105
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" t4xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" t4 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 t4
 EndChar
 
@@ -26590,7 +26502,6 @@ SplineSet
  538 198 538 198 538 268 c 128,-1,115
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" nh xx t1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" nh xx t1
 EndChar
 
@@ -26908,9 +26819,7 @@ SplineSet
  842 194 842 194 842 258 c 0,133,134
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" nht1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 nht1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" nht1 xx r3
 EndChar
 
 StartChar: nht1r3u1
@@ -27188,7 +27097,6 @@ SplineSet
 EndSplineSet
 Refer: 129 3363 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" nh xx t2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" nh xx t2
 EndChar
 
@@ -27272,7 +27180,6 @@ SplineSet
  502 198 502 198 502 264 c 0,102,103
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" nh xx t3
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" nh xx t3
 EndChar
 
@@ -27680,9 +27587,7 @@ SplineSet
  806 200 806 200 806 258 c 0,145,146
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" nht3 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 nht3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" nht3 xx r3
 EndChar
 
 StartChar: nht3r3u1
@@ -28021,7 +27926,6 @@ SplineSet
  496 198 496 198 496 260 c 0,117,118
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" nh xx t4
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" nh xx t4
 EndChar
 
@@ -28417,7 +28321,6 @@ SplineSet
 EndSplineSet
 Refer: 129 3363 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" nh xx nh
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" nh xx nh
 EndChar
 
@@ -28643,7 +28546,6 @@ SplineSet
  550 198 550 198 550 258 c 0,77,78
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" nh xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" nh xx m1
 EndChar
 
@@ -29208,7 +29110,6 @@ SplineSet
  968 250 968 250 968 374 c 0,101,102
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" th1 xx th1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" th1 xx th1
 EndChar
 
@@ -29702,9 +29603,7 @@ SplineSet
  1140 278 1140 278 1140 370 c 0,111,112
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" th1th1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 th1th1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" th1th1 xx r3
 EndChar
 
 StartChar: th1th1r3u1
@@ -29982,7 +29881,6 @@ SplineSet
  972 246 972 246 972 372 c 0,73,74
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" th1 xx th2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" th1 xx th2
 EndChar
 
@@ -30299,7 +30197,6 @@ SplineSet
  978 244 978 244 978 368 c 0,61,62
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" th1 xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" th1 xx n1
 EndChar
 
@@ -30386,7 +30283,6 @@ SplineSet
  970 248 970 248 970 372 c 0,119,120
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" th1 xx p4
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" th1 xx p4
 EndChar
 
@@ -30739,7 +30635,6 @@ SplineSet
  978 246 978 246 978 372 c 0,76,77
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" th1 xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" th1 xx m1
 EndChar
 
@@ -31061,8 +30956,6 @@ SplineSet
  1288 250 1288 250 1288 374 c 0,63,64
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" th1xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" th1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 th1
 EndChar
 
@@ -31486,7 +31379,6 @@ SplineSet
  968 248 968 248 968 372 c 0,82,83
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" th1 xx s1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" th1 xx s1
 EndChar
 
@@ -31913,7 +31805,6 @@ SplineSet
 EndSplineSet
 Refer: 455 -1 S 1 0 0 1 0 0 2
 LCarets2: 4 0 0 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" th1 xx s1 xx th2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" th1 xx s1 xx th2
 EndChar
 
@@ -32116,7 +32007,6 @@ SplineSet
 EndSplineSet
 Refer: 455 -1 S 1 0 0 1 0 0 2
 LCarets2: 4 0 0 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" th1 xx s1 xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" th1 xx s1 xx n1
 EndChar
 
@@ -32273,7 +32163,6 @@ SplineSet
 EndSplineSet
 Refer: 455 -1 S 1 0 0 1 0 0 2
 LCarets2: 4 0 0 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" th1 xx s1 xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" th1 xx s1 xx m1
 EndChar
 
@@ -32554,9 +32443,7 @@ SplineSet
  1146 278 1146 278 1146 370 c 0,99,100
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" th1s1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 th1s1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" th1s1 xx r3
 EndChar
 
 StartChar: th1s1r3u1
@@ -32911,7 +32798,6 @@ SplineSet
 EndSplineSet
 Refer: 131 3365 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" th2 xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" th2 xx n1
 EndChar
 
@@ -33067,7 +32953,6 @@ SplineSet
 EndSplineSet
 Refer: 131 3365 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" th2 xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" th2 xx m1
 EndChar
 
@@ -33598,7 +33483,6 @@ SplineSet
  984 -118 984 -118 984 -180 c 0,0,1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" th3 xx th3
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" th3 xx th3
 EndChar
 
@@ -33969,7 +33853,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" th3 xx th4
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" th3 xx th4
 EndChar
 
@@ -34420,7 +34303,6 @@ SplineSet
 EndSplineSet
 Refer: 492 -1 S 1 0 0 1 0 0 2
 LCarets2: 4 0 0 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" th3 xx th4 xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" th3 xx th4 xx n1
 EndChar
 
@@ -34576,7 +34458,6 @@ SplineSet
 EndSplineSet
 Refer: 492 -1 S 1 0 0 1 0 0 2
 LCarets2: 4 0 0 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" th3 xx th4 xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" th3 xx th4 xx m1
 EndChar
 
@@ -34866,9 +34747,7 @@ SplineSet
  2162 558 2162 558 2162 418 c 0,0,1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" th3th4 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 th3th4
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" th3th4 xx r3
 EndChar
 
 StartChar: th3th4r3u1
@@ -35131,8 +35010,6 @@ SplineSet
  1324 160 1324 160 1324 44 c 0,0,1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" th3xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" th3 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 th3
 EndChar
 
@@ -35625,7 +35502,6 @@ SplineSet
  1500 -234 1500 -234 1500 -360 c 0,46,47
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" th4 xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" th4 xx n1
 EndChar
 
@@ -35862,7 +35738,6 @@ SplineSet
  1194 -424 1194 -424 1194 -234 c 0,79,80
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" th4 xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" th4 xx m1
 EndChar
 
@@ -36200,8 +36075,6 @@ SplineSet
  1802 694 1802 694 1802 402 c 0,0,1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" th4xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" th4 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 th4
 EndChar
 
@@ -36672,7 +36545,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" n1 xx th1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" n1 xx th1
 EndChar
 
@@ -37082,9 +36954,7 @@ SplineSet
  2438 598 2438 598 2438 376 c 0,11,12
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" n1th1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 n1th1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" n1th1 xx r3
 EndChar
 
 StartChar: n1th1r3u1
@@ -37323,7 +37193,6 @@ SplineSet
  2478 70 l 1,56,-1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" n1 xx th2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" n1 xx th2
 EndChar
 
@@ -37701,7 +37570,6 @@ SplineSet
  1504 396 1504 396 1504 250 c 0,0,1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" n1 xx th3
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" n1 xx th3
 EndChar
 
@@ -37977,9 +37845,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" n1th3 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 n1th3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" n1th3 xx r3
 EndChar
 
 StartChar: n1th3r3u1
@@ -38208,7 +38074,6 @@ SplineSet
  2584 596 2584 596 2584 448 c 0,0,1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" n1 xx th4
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" n1 xx th4
 EndChar
 
@@ -38522,9 +38387,7 @@ SplineSet
  2558 550 2558 550 2558 406 c 0,0,1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" n1th4 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 n1th4
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" n1th4 xx r3
 EndChar
 
 StartChar: n1th4r3u1
@@ -38771,7 +38634,6 @@ SplineSet
  2094 638 2094 638 2094 448 c 0,0,1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" n1 xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" n1 xx n1
 EndChar
 
@@ -39018,9 +38880,7 @@ SplineSet
  2376 634 2376 634 2376 442 c 0,0,1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" n1n1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 n1n1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" n1n1 xx r3
 EndChar
 
 StartChar: n1n1r3u1
@@ -39232,7 +39092,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" n1 xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" n1 xx m1
 EndChar
 
@@ -39514,9 +39373,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" n1m1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 n1m1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" n1m1 xx r3
 EndChar
 
 StartChar: n1m1r3u1
@@ -39745,8 +39602,6 @@ SplineSet
  1806 586 1806 586 1806 362 c 0,0,1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" n1xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" n1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 n1
 EndChar
 
@@ -39920,7 +39775,6 @@ SplineSet
 EndSplineSet
 Refer: 1047 3451 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" n1 xx rh
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" n1 xx rh
 EndChar
 
@@ -40310,7 +40164,6 @@ SplineSet
 EndSplineSet
 Refer: 135 3370 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p1 xx t1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p1 xx t1
 EndChar
 
@@ -40486,7 +40339,6 @@ SplineSet
 EndSplineSet
 Refer: 135 3370 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p1 xx th1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p1 xx th1
 EndChar
 
@@ -40807,7 +40659,6 @@ SplineSet
 EndSplineSet
 Refer: 135 3370 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p1 xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p1 xx n1
 EndChar
 
@@ -40973,7 +40824,6 @@ SplineSet
  1602 0 l 1,0,-1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p1 xx p1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p1 xx p1
 EndChar
 
@@ -41236,7 +41086,6 @@ SplineSet
 EndSplineSet
 Refer: 135 3370 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p1 xx p2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p1 xx p2
 EndChar
 
@@ -41422,8 +41271,6 @@ SplineSet
  1870 -12 l 2,0,1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" p1xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" p1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 p1
 EndChar
 
@@ -41816,7 +41663,6 @@ SplineSet
 EndSplineSet
 Refer: 135 3370 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p1 xx s1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p1 xx s1
 EndChar
 
@@ -42081,9 +41927,7 @@ SplineSet
 EndSplineSet
 Refer: 135 3370 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" p1s1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 p1s1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" p1s1 xx r3
 EndChar
 
 StartChar: p1s1r3u1
@@ -42454,7 +42298,6 @@ SplineSet
 EndSplineSet
 Refer: 136 3371 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p2 xx k1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p2 xx k1
 EndChar
 
@@ -42643,7 +42486,6 @@ SplineSet
 EndSplineSet
 Refer: 136 3371 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p2 xx t1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p2 xx t1
 EndChar
 
@@ -42826,7 +42668,6 @@ SplineSet
 EndSplineSet
 Refer: 136 3371 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p2 xx th1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p2 xx th1
 EndChar
 
@@ -43062,7 +42903,6 @@ SplineSet
 EndSplineSet
 Refer: 136 3371 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p2 xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p2 xx n1
 EndChar
 
@@ -43210,7 +43050,6 @@ SplineSet
 EndSplineSet
 Refer: 136 3371 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p2 xx p1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p2 xx p1
 EndChar
 
@@ -43369,7 +43208,6 @@ SplineSet
 EndSplineSet
 Refer: 136 3371 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p2 xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p2 xx m1
 EndChar
 
@@ -43573,8 +43411,6 @@ SplineSet
  2106 74 l 5,73,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" p2xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" p2 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 p2
 EndChar
 
@@ -43994,7 +43830,6 @@ SplineSet
 EndSplineSet
 Refer: 136 3371 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p2 xx s1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p2 xx s1
 EndChar
 
@@ -44252,7 +44087,6 @@ SplineSet
 EndSplineSet
 Refer: 136 3371 S 1 0 0 1 0 0 2
 LCarets2: 4 0 0 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p2 xx rh xx rh
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p2 xx rh xx rh
 EndChar
 
@@ -44698,7 +44532,6 @@ SplineSet
 EndSplineSet
 Refer: 137 3372 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p3 xx k3
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p3 xx k3
 EndChar
 
@@ -44965,7 +44798,6 @@ SplineSet
 EndSplineSet
 Refer: 137 3372 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p3 xx ch3
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p3 xx ch3
 EndChar
 
@@ -45306,7 +45138,6 @@ SplineSet
 EndSplineSet
 Refer: 137 3372 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p3 xx th3
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p3 xx th3
 EndChar
 
@@ -45536,7 +45367,6 @@ SplineSet
 EndSplineSet
 Refer: 137 3372 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p3 xx th4
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p3 xx th4
 EndChar
 
@@ -45849,7 +45679,6 @@ SplineSet
 EndSplineSet
 Refer: 137 3372 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p3 xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p3 xx n1
 EndChar
 
@@ -46037,7 +45866,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p3 xx p3
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p3 xx p3
 EndChar
 
@@ -46288,7 +46116,6 @@ SplineSet
 EndSplineSet
 Refer: 137 3372 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" p3 xx p4
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p3 xx p4
 EndChar
 
@@ -46369,8 +46196,6 @@ SplineSet
  812 194 812 194 812 262 c 0,93,94
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" p3xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" p3 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 p3
 EndChar
 
@@ -47127,8 +46952,6 @@ SplineSet
  1394 98 1394 98 1394 -28 c 0,0,1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" p4xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" p4 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 p4
 EndChar
 
@@ -47630,7 +47453,6 @@ SplineSet
 EndSplineSet
 Refer: 139 3374 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" m1 xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" m1 xx n1
 EndChar
 
@@ -47788,7 +47610,6 @@ SplineSet
  1962 4 l 1,0,-1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" m1 xx p1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" m1 xx p1
 EndChar
 
@@ -48055,9 +47876,7 @@ SplineSet
  2250 -2 l 1,0,-1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" m1p1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 m1p1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" m1p1 xx r3
 EndChar
 
 StartChar: m1p1r3u1
@@ -48298,7 +48117,6 @@ SplineSet
  604 336 604 336 604 616 c 0,74,75
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" m1 xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" m1 xx m1
 EndChar
 
@@ -48614,8 +48432,6 @@ SplineSet
  906 328 906 328 906 626 c 0,62,63
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" m1xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" m1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 m1
 EndChar
 
@@ -49272,7 +49088,6 @@ EndSplineSet
 Refer: 140 3375 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" y1 xx k1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" y1xx k1
 EndChar
 
 StartChar: y1k1u1
@@ -49579,7 +49394,6 @@ EndSplineSet
 Refer: 140 3375 S 1 0 0 1 0 0 2
 LCarets2: 4 0 0 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" y1 xx k1 xx k1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" y1xx k1k1
 EndChar
 
 StartChar: y1k1k1u1
@@ -49814,7 +49628,6 @@ EndSplineSet
 Refer: 140 3375 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" y1 xx ch1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" y1xx ch1
 EndChar
 
 StartChar: y1ch1u1
@@ -49982,7 +49795,6 @@ EndSplineSet
 Refer: 140 3375 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" y1 xx th1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" y1xx th1
 EndChar
 
 StartChar: y1th1u1
@@ -50250,7 +50062,6 @@ EndSplineSet
 Refer: 140 3375 S 1 0 0 1 0 0 2
 LCarets2: 4 0 0 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" y1 xx th1 xx th1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" y1xx th1th1
 EndChar
 
 StartChar: y1th1th1u1
@@ -50564,7 +50375,6 @@ EndSplineSet
 Refer: 140 3375 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" y1 xx n1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" y1xx n1
 EndChar
 
 StartChar: y1n1u1
@@ -50712,7 +50522,6 @@ EndSplineSet
 Refer: 140 3375 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" y1 xx p1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" y1xx p1
 EndChar
 
 StartChar: y1p1u1
@@ -50921,7 +50730,6 @@ EndSplineSet
 Refer: 140 3375 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" y1 xx m1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" y1xx m1
 EndChar
 
 StartChar: y1m1u1
@@ -51819,7 +51627,6 @@ EndSplineSet
 Refer: 143 3378 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" l3 xx k1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" l3xx k1
 EndChar
 
 StartChar: l3k1u1
@@ -52128,7 +51935,6 @@ EndSplineSet
 Refer: 143 3378 S 1 0 0 1 0 0 2
 LCarets2: 4 0 0 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" l3 xx k1 xx k1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" l3xx k1k1
 EndChar
 
 StartChar: l3k1k1u1
@@ -52373,7 +52179,6 @@ EndSplineSet
 Refer: 143 3378 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" l3 xx k3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" l3xx k3
 EndChar
 
 StartChar: l3k3u1
@@ -52614,7 +52419,6 @@ EndSplineSet
 Validated: 1
 LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" l3 xx ch1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" l3xx ch1
 EndChar
 
 StartChar: l3ch1u1
@@ -52822,7 +52626,6 @@ EndSplineSet
 Refer: 143 3378 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" l3 xx th1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" l3xx th1
 EndChar
 
 StartChar: l3th1u1
@@ -53090,7 +52893,6 @@ EndSplineSet
 Refer: 143 3378 S 1 0 0 1 0 0 2
 LCarets2: 4 0 0 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" l3 xx th1 xx th1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" l3xx th1th1
 EndChar
 
 StartChar: l3th1th1u1
@@ -53330,7 +53132,6 @@ EndSplineSet
 Validated: 1
 LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" l3 xx p1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" l3xx p1
 EndChar
 
 StartChar: l3p1u1
@@ -53554,9 +53355,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" l3p1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 l3p1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" l3p1 xx r3
 EndChar
 
 StartChar: l3p1r3u1
@@ -53790,7 +53589,6 @@ EndSplineSet
 Refer: 143 3378 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" l3 xx p2
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" l3xx p2
 EndChar
 
 StartChar: l3p2u1
@@ -53987,7 +53785,6 @@ EndSplineSet
 Refer: 143 3378 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" l3 xx p3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" l3xx p3
 EndChar
 
 StartChar: l3p3u1
@@ -54200,7 +53997,6 @@ EndSplineSet
 Refer: 143 3378 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" l3 xx m1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" l3xx m1
 EndChar
 
 StartChar: l3m1u1
@@ -54389,7 +54185,6 @@ SplineSet
 EndSplineSet
 Refer: 143 3378 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" l3xx l3
 Ligature2: "'blws' Below Base Substitutions in Malay+AQEA-lam/Malay+AQEA-lam2 lookup 4 subtable" l3 l4
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" l3 xx l3
 EndChar
@@ -54762,8 +54557,6 @@ SplineSet
  1754 4 l 1,0,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" v1xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" v1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 v1
 EndChar
 
@@ -55621,7 +55414,6 @@ SplineSet
  1356 424 1356 424 1356 496 c 0,73,74
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" z1 xx ch1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" z1 xx ch1
 EndChar
 
@@ -55972,7 +55764,6 @@ SplineSet
  1356 424 1356 424 1356 496 c 0,118,119
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" z1 xx ch2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" z1 xx ch2
 EndChar
 
@@ -56365,7 +56156,6 @@ SplineSet
 EndSplineSet
 Refer: 147 3382 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" z1 xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" z1 xx n1
 EndChar
 
@@ -56520,7 +56310,6 @@ SplineSet
 EndSplineSet
 Refer: 147 3382 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" z1 xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" z1 xx m1
 EndChar
 
@@ -56813,8 +56602,6 @@ SplineSet
  1754 386 l 2,92,93
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" z1xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" z1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 z1
 EndChar
 
@@ -57274,7 +57061,6 @@ SplineSet
 EndSplineSet
 Refer: 147 3382 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" z1 xx z1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" z1 xx z1
 EndChar
 
@@ -57579,9 +57365,7 @@ SplineSet
 EndSplineSet
 Refer: 147 3382 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" z1z1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 z1z1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" z1z1 xx r3
 EndChar
 
 StartChar: z1z1r3u1
@@ -58086,7 +57870,6 @@ SplineSet
 EndSplineSet
 Refer: 148 3383 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" sh xx k1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" sh xx k1
 EndChar
 
@@ -58397,7 +58180,6 @@ SplineSet
 EndSplineSet
 Refer: 148 3383 S 1 0 0 1 0 0 2
 LCarets2: 4 0 0 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" sh xx k1 xx k1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" sh xx k1 xx k1
 EndChar
 
@@ -58756,9 +58538,7 @@ SplineSet
 EndSplineSet
 Refer: 148 3383 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" shk1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 shk1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" shk1 xx r3
 EndChar
 
 StartChar: shk1r3u1
@@ -58974,7 +58754,6 @@ SplineSet
 EndSplineSet
 Refer: 148 3383 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" sh xx t1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" sh xx t1
 EndChar
 
@@ -59262,9 +59041,7 @@ SplineSet
 EndSplineSet
 Refer: 148 3383 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" sht1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 sht1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" sht1 xx r3
 EndChar
 
 StartChar: sht1r3u1
@@ -59426,7 +59203,6 @@ SplineSet
 EndSplineSet
 Refer: 148 3383 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" sh xx t2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" sh xx t2
 EndChar
 
@@ -59603,7 +59379,6 @@ SplineSet
 EndSplineSet
 Refer: 148 3383 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" sh xx nh
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" sh xx nh
 EndChar
 
@@ -59836,7 +59611,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" sh xx p1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" sh xx p1
 EndChar
 
@@ -60223,9 +59997,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" shp1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 shp1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" shp1 xx r3
 EndChar
 
 StartChar: shp1r3u1
@@ -60414,7 +60186,6 @@ SplineSet
 EndSplineSet
 Refer: 148 3383 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" sh xx p2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" sh xx p2
 EndChar
 
@@ -60597,7 +60368,6 @@ SplineSet
 EndSplineSet
 Refer: 148 3383 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" sh xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" sh xx m1
 EndChar
 
@@ -60809,8 +60579,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" shxx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" sh r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 sh
 EndChar
 
@@ -61431,7 +61199,6 @@ SplineSet
  1336 -348 l 1,128,-1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" s1 xx k1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" s1 xx k1
 EndChar
 
@@ -61891,7 +61658,6 @@ SplineSet
  950 -512 950 -512 950 -462 c 2,171,-1
 EndSplineSet
 LCarets2: 4 0 0 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" s1 xx k1 xx k1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" s1 xx k1 xx k1
 EndChar
 
@@ -62393,9 +62159,7 @@ SplineSet
  1328 -352 l 1,133,-1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" s1k1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 s1k1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" s1k1 xx r3
 EndChar
 
 StartChar: s1k1r3u1
@@ -62727,7 +62491,6 @@ SplineSet
  1268 -478 1268 -478 1268 -432 c 0,100,101
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" s1 xx k2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" s1 xx k2
 EndChar
 
@@ -63018,7 +62781,6 @@ SplineSet
  1894 -40 1894 -40 1992 -140 c 1,63,-1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" s1 xx t1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" s1 xx t1
 EndChar
 
@@ -63293,9 +63055,7 @@ SplineSet
  1986 -412 1986 -412 1986 -482 c 0,63,64
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" s1t1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 s1t1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" s1t1 xx r3
 EndChar
 
 StartChar: s1t1r3u1
@@ -63577,7 +63337,6 @@ SplineSet
  1594 -482 1594 -482 1594 -400 c 0,111,112
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" s1 xx th1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" s1 xx th1
 EndChar
 
@@ -64098,9 +63857,7 @@ SplineSet
  1590 -480 1590 -480 1590 -400 c 0,123,124
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" s1th1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 s1th1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" s1th1 xx r3
 EndChar
 
 StartChar: s1th1r3u1
@@ -64401,7 +64158,6 @@ SplineSet
  2970 70 l 1,75,-1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" s1 xx th2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" s1 xx th2
 EndChar
 
@@ -64749,7 +64505,6 @@ SplineSet
  1992 -234 1992 -234 1992 -360 c 0,63,64
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" s1 xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" s1 xx n1
 EndChar
 
@@ -65005,7 +64760,6 @@ SplineSet
  1988 -592 l 1,63,-1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" s1 xx p1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" s1 xx p1
 EndChar
 
@@ -65362,9 +65116,7 @@ SplineSet
  1988 -598 l 2,63,64
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" s1p1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 s1p1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" s1p1 xx r3
 EndChar
 
 StartChar: s1p1r3u1
@@ -65661,7 +65413,6 @@ SplineSet
  1960 -388 l 2,99,100
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" s1 xx p2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" s1 xx p2
 EndChar
 
@@ -65949,7 +65700,6 @@ SplineSet
  1684 -428 1684 -428 1684 -234 c 0,97,98
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" s1 xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" s1 xx m1
 EndChar
 
@@ -66326,8 +66076,6 @@ SplineSet
  2298 566 2298 566 2298 394 c 0,0,1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" s1xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" s1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 s1
 EndChar
 
@@ -66894,7 +66642,6 @@ SplineSet
  1992 -272 1992 -272 1992 -380 c 0,63,64
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" s1 xx s1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" s1 xx s1
 EndChar
 
@@ -67309,9 +67056,7 @@ SplineSet
  2012 -276 2012 -276 2012 -388 c 0,63,64
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" s1s1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 s1s1
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" s1s1 xx r3
 EndChar
 
 StartChar: s1s1r3u1
@@ -67636,7 +67381,6 @@ SplineSet
  1310 -204 1310 -204 1310 -352 c 0,91,92
 EndSplineSet
 LCarets2: 4 0 0 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" s1 xx rh xx rh
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" s1 xx rh xx rh
 EndChar
 
@@ -67952,9 +67696,7 @@ SplineSet
  1360 -212 1360 -212 1360 -334 c 0,110,111
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" s1rhrh r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 s1rhrh
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" s1rhrh xx r3
 EndChar
 
 StartChar: s1rhrhr3u1
@@ -68442,7 +68184,6 @@ SplineSet
  2442 642 2442 642 2442 452 c 0,0,1
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" h1 xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" h1 xx n1
 EndChar
 
@@ -68644,7 +68385,6 @@ SplineSet
  1554 330 1554 330 1554 604 c 0,50,51
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" h1 xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" h1 xx m1
 EndChar
 
@@ -68930,8 +68670,6 @@ SplineSet
  2296 484 2296 484 2296 344 c 0,0,1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" h1xx r3
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" h1 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 h1
 EndChar
 
@@ -69591,7 +69329,6 @@ SplineSet
  538 366 538 366 538 436 c 128,-1,164
 EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" lh xx lh
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" lh xx lh
 EndChar
 
@@ -70045,7 +69782,6 @@ SplineSet
 EndSplineSet
 Refer: 145 3380 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" zh xx k1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" zh xx k1
 EndChar
 
@@ -70310,7 +70046,6 @@ SplineSet
  336 -490 336 -490 336 -442 c 2,160,-1
 EndSplineSet
 LCarets2: 4 0 0 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" zh xx k1 xx k1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" zh xx k1 xx k1
 EndChar
 
@@ -70606,7 +70341,6 @@ SplineSet
 EndSplineSet
 Refer: 145 3380 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" zh xx ch1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" zh xx ch1
 EndChar
 
@@ -70779,7 +70513,6 @@ SplineSet
 EndSplineSet
 Refer: 145 3380 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" zh xx th1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" zh xx th1
 EndChar
 
@@ -70985,7 +70718,6 @@ SplineSet
 EndSplineSet
 Refer: 145 3380 S 1 0 0 1 0 0 2
 LCarets2: 4 0 0 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" zh xx th1 xx th1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" zh xx th1 xx th1
 EndChar
 
@@ -71207,7 +70939,6 @@ SplineSet
 EndSplineSet
 Refer: 145 3380 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" zh xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" zh xx n1
 EndChar
 
@@ -71365,7 +71096,6 @@ SplineSet
 EndSplineSet
 Refer: 145 3380 S 1 0 0 1 0 0 2
 LCarets2: 4 0 0 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" zh xx n1 xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" zh xx n1 xx n1
 EndChar
 
@@ -71554,7 +71284,6 @@ SplineSet
 EndSplineSet
 Refer: 145 3380 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" zh xx p1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" zh xx p1
 EndChar
 
@@ -71710,7 +71439,6 @@ SplineSet
 EndSplineSet
 Refer: 145 3380 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" zh xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" zh xx m1
 EndChar
 
@@ -71883,7 +71611,6 @@ SplineSet
 EndSplineSet
 Refer: 145 3380 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" zh xx v1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" zh xx v1
 Ligature2: "'psts' Post Base Substitutions in Malay+AQEA-lam/Malay+AQEA-lam2 lookup 6 subtable" zh v2
 EndChar
@@ -72049,7 +71776,6 @@ SplineSet
 EndSplineSet
 Refer: 145 3380 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" zh xx s1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" zh xx s1
 EndChar
 
@@ -72337,7 +72063,6 @@ SplineSet
 EndSplineSet
 Refer: 142 3377 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" rh xx rh
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" rh xx rh
 EndChar
 
@@ -72500,7 +72225,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'blwf' Below Base Forms in Malay+AQEA-lam2 lookup 3 subtable" xx l3
-Ligature2: "'blwf' Below Base Forms in Malay+AQEA-lam lookup 3 subtable" l3 xx
 EndChar
 
 StartChar: k1xx
@@ -72513,7 +72237,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1575 0 2
 Refer: 115 3349 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" k1 xx
 EndChar
 
 StartChar: k2xx
@@ -72526,7 +72249,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1617 0 2
 Refer: 116 3350 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" k2 xx
 EndChar
 
 StartChar: k3xx
@@ -72539,7 +72261,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1411 0 2
 Refer: 117 3351 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" k3 xx
 EndChar
 
 StartChar: k4xx
@@ -72552,7 +72273,6 @@ Fore
 Refer: 164 3405 S 1 0 0 1 2247 0 2
 Refer: 118 3352 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" k4 xx
 EndChar
 
 StartChar: ngxx
@@ -72565,7 +72285,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1651 0 2
 Refer: 119 3353 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" ng xx
 EndChar
 
 StartChar: ch1xx
@@ -72578,7 +72297,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1501 0 2
 Refer: 120 3354 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" ch1 xx
 EndChar
 
 StartChar: ch2xx
@@ -72591,7 +72309,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1970 0 2
 Refer: 121 3355 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" ch2 xx
 EndChar
 
 StartChar: ch3xx
@@ -72604,7 +72321,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1439 0 2
 Refer: 122 3356 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" ch3 xx
 EndChar
 
 StartChar: ch4xx
@@ -72617,7 +72333,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 2552 0 2
 Refer: 123 3357 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" ch4 xx
 EndChar
 
 StartChar: njxx
@@ -72630,7 +72345,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 2261 0 2
 Refer: 124 3358 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" nj xx
 EndChar
 
 StartChar: t1xx
@@ -72643,7 +72357,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 950 0 2
 Refer: 125 3359 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" t1 xx
 EndChar
 
 StartChar: t2xx
@@ -72656,7 +72369,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1089 0 2
 Refer: 126 3360 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" t2 xx
 EndChar
 
 StartChar: t3xx
@@ -72669,7 +72381,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 2012 0 2
 Refer: 127 3361 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" t3 xx
 EndChar
 
 StartChar: t4xx
@@ -72682,7 +72393,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 2100 0 2
 Refer: 128 3362 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" t4 xx
 EndChar
 
 StartChar: nhxx
@@ -72695,7 +72405,6 @@ Fore
 Refer: 164 3405 S 1 0 0 1 2260 0 2
 Refer: 129 3363 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" nh xx
 EndChar
 
 StartChar: th1xx
@@ -72708,7 +72417,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1601 0 2
 Refer: 130 3364 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" th1 xx
 EndChar
 
 StartChar: th2xx
@@ -72721,7 +72429,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1500 0 2
 Refer: 131 3365 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" th2 xx
 EndChar
 
 StartChar: th3xx
@@ -72734,7 +72441,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 993 0 2
 Refer: 132 3366 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" th3 xx
 EndChar
 
 StartChar: th4xx
@@ -72747,7 +72453,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1510 0 2
 Refer: 133 3367 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" th4 xx
 EndChar
 
 StartChar: n1xx
@@ -72760,7 +72465,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1531 0 2
 Refer: 134 3368 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" n1 xx
 EndChar
 
 StartChar: p1xx
@@ -72773,7 +72477,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1599 0 2
 Refer: 135 3370 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" p1 xx
 EndChar
 
 StartChar: p2xx
@@ -72786,7 +72489,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1971 0 2
 Refer: 136 3371 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" p2 xx
 EndChar
 
 StartChar: p3xx
@@ -72799,7 +72501,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 2098 0 2
 Refer: 137 3372 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" p3 xx
 EndChar
 
 StartChar: p4xx
@@ -72812,7 +72513,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1028 0 2
 Refer: 138 3373 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" p4 xx
 EndChar
 
 StartChar: m1xx
@@ -72825,7 +72525,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1048 0 2
 Refer: 139 3374 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" m1 xx
 EndChar
 
 StartChar: y1xx
@@ -72838,7 +72537,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1626 0 2
 Refer: 140 3375 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" y1 xx
 EndChar
 
 StartChar: r3xx
@@ -72851,7 +72549,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1080 0 2
 Refer: 141 3376 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" r3 xx
 EndChar
 
 StartChar: rhxx
@@ -72864,7 +72561,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1050 0 2
 Refer: 142 3377 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" rh xx
 EndChar
 
 StartChar: l3xx
@@ -72877,7 +72573,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1460 0 2
 Refer: 143 3378 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" l3 xx
 EndChar
 
 StartChar: lhxx
@@ -72890,7 +72585,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1134 0 2
 Refer: 144 3379 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" lh xx
 EndChar
 
 StartChar: zhxx
@@ -72903,7 +72597,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1060 0 2
 Refer: 145 3380 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" zh xx
 EndChar
 
 StartChar: v1xx
@@ -72916,7 +72609,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1468 0 2
 Refer: 146 3381 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" v1 xx
 EndChar
 
 StartChar: z1xx
@@ -72929,7 +72621,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1609 0 2
 Refer: 147 3382 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" z1 xx
 EndChar
 
 StartChar: shxx
@@ -72942,7 +72633,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 1888 0 2
 Refer: 148 3383 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" sh xx
 EndChar
 
 StartChar: s1xx
@@ -72955,7 +72645,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 2002 0 2
 Refer: 149 3384 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" s1 xx
 EndChar
 
 StartChar: h1xx
@@ -72968,7 +72657,6 @@ Fore
 Refer: 164 3405 N 1 0 0 1 2001 0 2
 Refer: 150 3385 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 2 subtable" h1 xx
 EndChar
 
 StartChar: rupee
@@ -74102,7 +73790,6 @@ SplineSet
  820 560 820 560 820 444 c 0,29,30
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" uni25CC a2 anusvara
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" uni25CC a2 anusvara
 EndChar
 
 StartChar: s1p1l3
@@ -74152,7 +73839,6 @@ Fore
 Refer: 284 -1 N 0.792247 0 0 0.645166 681.916 -594.842 2
 Refer: 137 3372 S 1 0 0 1 -48 1 2
 LCarets2: 1 0 
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5 subtable" p3k3 r4
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 5 subtable" r4 p3k3
 EndChar
 
