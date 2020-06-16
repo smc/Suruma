@@ -2,24 +2,32 @@
 
 fontpath=/usr/share/fonts/truetype/malayalam
 font=Suruma
+outdir=build
 
-default: compile
-all: compile webfonts
+default: ttf
+all: webfonts
 
-compile:
+clean:
+	@rm -f ./tests/*.pdf;
+	@rm -rf build;
+
+ttf:
 	@echo "Generating ${font}.ttf"
 	@fontforge -lang=ff -c "Open('${font}.sfd'); Generate('${font}.ttf')";
+	@mkdir -p ${outdir};
+	@mv *.ttf ${outdir}/;
 
-webfonts:compile
+webfonts:ttf
 	@echo "Generating webfonts";
-	@sfntly -w ${font}.ttf ${font}.woff;
-	@sfntly -e -x ${font}.ttf ${font}.eot;
-	@[ -x `which woff2_compress` ] && woff2_compress ${font}.ttf;
+	@fonttools ttLib.woff2 compress ./${outdir}/${font}.ttf;
 
-install: compile
-	@install -D -m 0644 ${font}.ttf ${DESTDIR}/${fontpath}/${font}.ttf;
+install: ttf
+	@install -D -m 0644 ./${outdir}/${font}.ttf ${DESTDIR}${fontpath}/${font}.ttf;
 
-test: compile
+uninstall:
+	@rm ${DESTDIR}${fontpath}/${font}.ttf;
+
+test: 
 # Test the fonts
 	@echo "Testing font ${font}";
-	@hb-view ${font}.ttf --text-file tests/tests.txt --output-file tests/${font}.pdf;
+	@hb-view ./${outdir}/${font}.ttf --text-file tests/tests.txt --output-file tests/${font}-ttf.pdf;
